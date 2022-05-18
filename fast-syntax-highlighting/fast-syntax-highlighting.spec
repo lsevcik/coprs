@@ -1,6 +1,6 @@
 Name:           fast-syntax-highlighting
 Version:        1.55
-Release:        0%{?dist}
+Release:        2
 
 Summary:        Feature-rich syntax highlighting for ZSH
 License: BSD
@@ -30,5 +30,7 @@ cp -r ./ %{buildroot}/usr/share/zsh/plugins/%{name}
 
 
 %changelog
+* Wed May 18 2022 Logan Sevcik <logan@sevcik.email> 1.55-2
+- Moved package to coprs repo
 * Tue May 17 2022 Logan Sevcik <logan@sevcik.email> 1.55-1
 - new package built with tito
