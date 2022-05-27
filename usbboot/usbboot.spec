@@ -1,6 +1,6 @@
 Name:           usbboot
 Version:        2022.05.27
-Release:        0%{?dist}
+Release:        1%{?dist}
 Summary:        Raspberry Pi USB booting code
 
 License:        Apache2
@@ -36,3 +36,6 @@ Raspberry Pi USB booting code
 
 
 %changelog
+* Fri May 27 2022 Logan Sevcik <logan@sevcik.email> 2022.05.27-1
+- new package built with tito
+
