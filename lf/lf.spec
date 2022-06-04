@@ -18,7 +18,7 @@ lf (as in "list files") is a terminal file manager written in Go with a heavy in
 
 Name:           lf
 Version:        %{tag}
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Terminal file manager
 License:        MIT
 URL:            %{gourl}
@@ -56,4 +56,7 @@ install -vDm 0755 %{gobuilddir}/bin/lf %{buildroot}%{_bindir}
 %gopkgfiles
 
 %changelog
+* Sat Jun 04 2022 Logan Sevcik <logan@sevcik.email> r27-2
+- new package built with tito
+
 %autochangelog
