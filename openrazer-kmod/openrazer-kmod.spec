@@ -4,7 +4,7 @@
 Name:          openrazer-kmod
 
 Version:       3.3.0
-Release:       1%{?dist}.1
+Release:       1%{?dist}.2
 Summary:       OpenRazer kernel module
 
 Group:         System Environment/Kernel
@@ -67,3 +67,8 @@ and won't let me not have a -common package 😡
 %files common
 /usr/lib/udev/razer_mount
 /usr/lib/udev/rules.d/99-razer.rules
+
+%changelog
+* Sun Jun 05 2022 Logan Sevcik <logan@sevcik.email> 3.3.0-1.2
+- new package built with tito
+
