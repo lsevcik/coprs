@@ -1,6 +1,6 @@
 Name:           nvtop
-Version:        2.0.1
-Release:        1
+Version:        2.0.2
+Release:        0
 
 Summary:        AMD and NVIDIA GPUs htop like monitoring tool
 License:        GPL
@@ -36,4 +36,3 @@ htop familiar way.
 %changelog
 * Wed May 18 2022 Logan Sevcik <logan@sevcik.email> 2.0.1-1
 - new package built with tito
-
