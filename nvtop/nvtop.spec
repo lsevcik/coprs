@@ -8,7 +8,7 @@ URL:            https://github.com/Syllo/%{name}
 Source0:        https://github.com/Syllo/%{name}/archive/refs/tags/%{version}.tar.gz
 
 BuildArch:      x86_64 aarch64 armhfp ppc64le s390x
-BuildRequires:  libdrm-devel ncurses-devel cmake gcc git
+BuildRequires:  libdrm-devel ncurses-devel cmake gcc-c++ git
 
 
 %description
