@@ -1,6 +1,6 @@
 Name:           firmware-brcm-supplemental
 Version:        1.3
-Release:        0%{?dist}
+Release:        1%{?dist}
 Summary:        Broadcom brcm Supplemental Firmware
 
 License:        Proprietary
@@ -28,4 +28,7 @@ install -vm0644 brcm* %{buildroot}/usr/lib/firmware/brcm
 %doc README.md
 
 %changelog
+* Mon Jul 25 2022 Logan Sevcik <logan@sevcik.email> 1.3-1
+- new package built with tito
+
 
