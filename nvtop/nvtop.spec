@@ -1,5 +1,5 @@
 Name:           nvtop
-Version:        2.0.3
+Version:        2.0.4
 Release:        1
 
 Summary:        AMD and NVIDIA GPUs htop like monitoring tool
@@ -32,8 +32,13 @@ htop familiar way.
 %files
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1.gz
+/usr/share/applications/nvtop.desktop
+/usr/share/icons/nvtop.svg
 
 %changelog
+* Thu Oct 06 2022 Logan Sevcik <logan@sevcik.email> 2.0.4-1
+- nvtop 2.0.3 -> 2.0.4
+
 * Fri Aug 26 2022 Logan Sevcik <logan@sevcik.email> 2.0.3-1
 - nvtop 2.0.2 -> 2.0.3
 
