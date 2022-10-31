@@ -1,6 +1,6 @@
 Name:           nvtop
-Version:        2.0.4
-Release:        1
+Version:        3.0.0
+Release:        1%{?dist}
 
 Summary:        AMD and NVIDIA GPUs htop like monitoring tool
 License:        GPL
@@ -8,7 +8,7 @@ URL:            https://github.com/Syllo/%{name}
 Source0:        https://github.com/Syllo/%{name}/archive/refs/tags/%{version}.tar.gz
 
 BuildArch:      x86_64 aarch64 armhfp ppc64le s390x
-BuildRequires:  libdrm-devel ncurses-devel cmake gcc-c++ git
+BuildRequires:  libdrm-devel ncurses-devel cmake gcc-c++ git systemd-devel
 
 
 %description
@@ -34,8 +34,12 @@ htop familiar way.
 %{_mandir}/man1/%{name}.1.gz
 /usr/share/applications/nvtop.desktop
 /usr/share/icons/nvtop.svg
+/usr/share/metainfo/nvtop.metainfo.xml
 
 %changelog
+* Mon Oct 31 2022 Logan Sevcik <logan@sevcik.email> 3.0.0-1
+- 2.0.4 -> 3.0.0
+
 * Thu Oct 06 2022 Logan Sevcik <logan@sevcik.email> 2.0.4-1
 - nvtop 2.0.3 -> 2.0.4
 
