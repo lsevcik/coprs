@@ -3,7 +3,7 @@
 
 Name:          openrazer-kmod
 
-Version:       3.5.0
+Version:       3.5.1
 Release:       1%{?dist}
 Summary:       OpenRazer kernel module
 
@@ -69,6 +69,9 @@ and won't let me not have a -common package 😡
 /usr/lib/udev/rules.d/99-razer.rules
 
 %changelog
+* Tue Jan 10 2023 Logan Sevcik <logan@sevcik.email> 3.5.1-1
+- 3.5.0 -> 3.5.1
+
 * Thu Dec 01 2022 Logan Sevcik <logan@sevcik.email> 3.5.0-1
 - 3.4.0 -> 3.5.0
 
