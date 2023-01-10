@@ -1,5 +1,5 @@
 %global goipath github.com/gokcehan/lf
-%global tag r27
+%global tag r28
 %global gomodulesmode GO111MODULE=auto
 %gometa
 
@@ -18,7 +18,7 @@ lf (as in "list files") is a terminal file manager written in Go with a heavy in
 
 Name:           lf
 Version:        %{tag}
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        Terminal file manager
 License:        MIT
 URL:            %{gourl}
@@ -56,6 +56,9 @@ install -vDm 0755 %{gobuilddir}/bin/lf %{buildroot}%{_bindir}
 %gopkgfiles
 
 %changelog
+* Tue Jan 10 2023 Logan Sevcik <logan@sevcik.email> r28-1
+- r27 -> r28
+
 * Sat Jun 04 2022 Logan Sevcik <logan@sevcik.email> r27-2
 - new package built with tito
 
